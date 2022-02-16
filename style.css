@@ -51,6 +51,7 @@ figcaption {
     padding  : 10px;
     margin   : 0 auto;
 }
+
 /** Images are allowed to be a little wider when broken out into their own container */
 .container.image {
     max-width: 1200px;
@@ -111,6 +112,15 @@ figcaption {
 
     .mobile {
         display: none;
+    }
+
+    .collage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .collage > div {
+        flex-basis: 30%;
     }
 }
 /*********************************************************************
